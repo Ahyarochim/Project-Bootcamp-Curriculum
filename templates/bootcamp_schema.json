@@ -1,0 +1,510 @@
+{
+  "id": "boot-001",
+  "createdAt": "2025-01-30T10:00:00Z",
+  "updatedAt": "2025-01-30T10:00:00Z",
+  "identitas": {
+    "nama": "Full Stack Web Development Bootcamp",
+    "kode": "BOOT-FSWD-2025",
+    "durasi": 8,
+    "tipe": "Hybrid",
+    "level": "Beginner",
+    "kapasitas": 25
+  },
+  "deskripsi": "Bootcamp intensif 8 minggu yang dirancang untuk mengubah pemula menjadi full-stack web developer yang siap kerja. Program ini menggabungkan pembelajaran teori dengan praktik hands-on, menggunakan teknologi modern seperti React, Node.js, dan database. Peserta akan membangun portfolio dengan 3 project nyata yang dapat digunakan untuk melamar pekerjaan. Metode pembelajaran mencakup live coding, pair programming, code review, dan mentoring personal dari instruktur berpengalaman. Di akhir bootcamp, peserta akan memiliki skill untuk membangun aplikasi web full-stack dari awal hingga deployment.",
+  "deskripsiSingkat": "Transform yourself from beginner to job-ready full-stack developer in 8 intensive weeks",
+  "targetPeserta": {
+    "deskripsi": "Bootcamp ini cocok untuk pemula yang serius ingin berkarir sebagai web developer, career switcher dari bidang non-IT yang ingin masuk tech industry, atau fresh graduate yang ingin memperkuat skill praktis programming",
+    "latar_belakang": [
+      "Fresh graduate dari jurusan IT, Computer Science, atau related field",
+      "Career switcher yang ingin pivot ke tech industry",
+      "Junior developer yang ingin upgrade skill dan portfolio",
+      "Freelancer yang ingin expand skill set web development"
+    ],
+    "prasyarat_teknis": [
+      "Pemahaman dasar programming (minimal pernah coding dengan 1 bahasa)",
+      "Familiar dengan command line/terminal basics",
+      "Memiliki laptop dengan spesifikasi minimum: RAM 8GB, Storage 256GB SSD",
+      "Koneksi internet stabil untuk online sessions"
+    ],
+    "prasyarat_soft_skill": [
+      "Komitmen waktu 25-30 jam per minggu untuk belajar",
+      "Growth mindset dan kemauan belajar hal baru",
+      "Problem solving mindset dan tidak mudah menyerah",
+      "Kemampuan komunikasi untuk kolaborasi tim",
+      "Manajemen waktu yang baik untuk balance learning dan tugas"
+    ]
+  },
+  "learningOutcomes": [
+    {
+      "kode": "LO-1",
+      "pernyataan": "Peserta mampu membangun responsive web application menggunakan HTML5, CSS3, dan modern JavaScript (ES6+)",
+      "kategori": "Technical"
+    },
+    {
+      "kode": "LO-2",
+      "pernyataan": "Peserta mampu mengembangkan frontend application dengan React.js dan state management",
+      "kategori": "Technical"
+    },
+    {
+      "kode": "LO-3",
+      "pernyataan": "Peserta mampu membangun RESTful API menggunakan Node.js dan Express.js",
+      "kategori": "Technical"
+    },
+    {
+      "kode": "LO-4",
+      "pernyataan": "Peserta mampu mengintegrasikan database (SQL dan NoSQL) dalam aplikasi full-stack",
+      "kategori": "Technical"
+    },
+    {
+      "kode": "LO-5",
+      "pernyataan": "Peserta mampu menggunakan Git/GitHub untuk version control dan kolaborasi tim",
+      "kategori": "Technical"
+    },
+    {
+      "kode": "LO-6",
+      "pernyataan": "Peserta mampu deploy aplikasi web ke production menggunakan cloud platform",
+      "kategori": "Technical"
+    },
+    {
+      "kode": "LO-7",
+      "pernyataan": "Peserta mampu bekerja dalam tim menggunakan Agile methodology dan code review process",
+      "kategori": "Soft Skill"
+    },
+    {
+      "kode": "LO-8",
+      "pernyataan": "Peserta memiliki portfolio dengan minimal 3 full-stack projects yang siap dipresentasikan untuk job interview",
+      "kategori": "Portfolio"
+    }
+  ],
+  "minggu": [
+    {
+      "mingguKe": 1,
+      "tema": "Web Development Fundamentals & Setup",
+      "learningOutcomes": ["LO-1", "LO-5"],
+      "materiPokok": [
+        "HTML5 semantic elements dan best practices",
+        "CSS3 fundamentals: Flexbox, Grid, dan responsive design",
+        "JavaScript ES6+ basics: variables, functions, arrays, objects",
+        "Git dan GitHub workflow",
+        "Development environment setup (VS Code, extensions, tools)"
+      ],
+      "metodePembelajaran": {
+        "metode": "Lecture + Workshop",
+        "deskripsi": "Instruktur menyampaikan fundamental concepts melalui live coding dan interactive presentation dengan real-world examples diikuti hands-on workshop untuk praktik langsung dan troubleshooting bersama peserta memastikan semua bisa setup environment dengan benar",
+        "aktivitas": "Peserta mengikuti live coding session membuat HTML CSS layouts mengerjakan JavaScript exercises setup Git repository pertama push code ke GitHub mengerjakan mini challenges untuk memperkuat pemahaman fundamental concepts melalui praktik coding langsung"
+      },
+      "waktu": "Lecture 2x120', Workshop 4x180'",
+      "pengalamanBelajar": "Peserta akan setup complete development environment belajar semantic HTML untuk SEO-friendly websites master CSS Flexbox dan Grid untuk modern layouts menulis clean JavaScript code dengan ES6+ syntax memahami Git basics untuk version control membuat GitHub account dan first repository mengerjakan coding challenges untuk solidify fundamentals",
+      "penilaian": {
+        "kriteria": "Kelengkapan setup development environment keberhasilan Git operations kualitas HTML semantic structure implementasi CSS responsive design correctness JavaScript exercises code organization ketepatan submission participation dalam workshop",
+        "bobot": 5
+      }
+    },
+    {
+      "mingguKe": 2,
+      "tema": "Advanced JavaScript & DOM Manipulation",
+      "learningOutcomes": ["LO-1"],
+      "materiPokok": [
+        "Advanced JavaScript: destructuring, spread/rest, async/await",
+        "DOM manipulation dan event handling",
+        "Fetch API dan working with external APIs",
+        "JavaScript best practices dan debugging techniques"
+      ],
+      "metodePembelajaran": {
+        "metode": "Workshop + Project-Based Learning",
+        "deskripsi": "Workshop intensif JavaScript modern features dengan banyak live coding examples diikuti project-based learning dimana peserta build interactive web application menggunakan real APIs untuk hands-on experience dengan asynchronous JavaScript dan DOM manipulation techniques",
+        "aktivitas": "Peserta practice advanced JavaScript syntax through exercises manipulate DOM elements create interactive features handle user events work with Fetch API untuk retrieve data dari public APIs debug JavaScript code menggunakan browser DevTools build mini project weather app atau movie search app"
+      },
+      "waktu": "Workshop 3x180', Project Work 3x180'",
+      "project": {
+        "nama": "Interactive Web App with API Integration",
+        "deskripsi": "Membuat interactive web application yang consume external API (weather, movies, atau lainnya) dengan advanced JavaScript features",
+        "deliverables": [
+          "Functional web app dengan API integration",
+          "Clean JavaScript code dengan ES6+ features",
+          "Responsive UI dengan good UX",
+          "GitHub repository dengan documentation",
+          "Deployed version di GitHub Pages atau Netlify"
+        ],
+        "teknologi": ["JavaScript ES6+", "Fetch API", "DOM Manipulation", "CSS3", "Git"]
+      },
+      "pengalamanBelajar": "Peserta akan master advanced JavaScript concepts seperti destructuring promises async await manipulate DOM secara dynamic handle user interactions elegantly work dengan external APIs untuk real-world data implement error handling dan loading states debug complex JavaScript issues menggunakan DevTools deploy interactive application ke live server",
+      "penilaian": {
+        "kriteria": "Implementasi advanced JavaScript features correctness API integration quality DOM manipulation dan event handling code structure dan organization UI UX quality error handling implementation GitHub documentation deployment success code cleanliness creativity",
+        "bobot": 10
+      }
+    },
+    {
+      "mingguKe": 3,
+      "tema": "React.js Fundamentals",
+      "learningOutcomes": ["LO-2"],
+      "materiPokok": [
+        "React components: functional components dan JSX",
+        "Props dan state management dengan useState",
+        "React hooks: useEffect, useContext",
+        "Component lifecycle dan side effects",
+        "Styling in React: CSS modules dan styled-components"
+      ],
+      "metodePembelajaran": {
+        "metode": "Lecture + Live Coding Workshop",
+        "deskripsi": "Instruktur explain React concepts dan philosophy melalui live coding sessions showing component-based architecture dari simple ke complex examples dengan emphasis pada React best practices dan modern patterns hooks-based approach untuk state management",
+        "aktivitas": "Peserta follow along live coding sessions create functional components manage state dengan hooks handle side effects dengan useEffect build reusable components practice props passing dan state lifting mengerjakan exercises untuk reinforce component thinking pattern"
+      },
+      "waktu": "Lecture 2x120', Workshop 4x180'",
+      "pengalamanBelajar": "Peserta akan understand React component-based architecture create reusable functional components manage local state dengan useState hooks handle side effects dan lifecycle dengan useEffect implement component composition patterns style components dengan modern approaches debug React applications menggunakan React DevTools think in React component-based way",
+      "penilaian": {
+        "kriteria": "Understanding React fundamentals component structure dan organization proper hooks usage state management implementation component reusability code quality dan best practices React DevTools proficiency assignment completion participation engagement",
+        "bobot": 8
+      }
+    },
+    {
+      "mingguKe": 4,
+      "tema": "Advanced React & State Management",
+      "learningOutcomes": ["LO-2"],
+      "materiPokok": [
+        "Advanced hooks: useReducer, useMemo, useCallback",
+        "Context API untuk global state",
+        "React Router untuk multi-page applications",
+        "Forms handling dan validation",
+        "Performance optimization techniques"
+      ],
+      "metodePembelajaran": {
+        "metode": "Workshop + Mini Project",
+        "deskripsi": "Workshop mendalam tentang advanced React patterns termasuk complex state management dengan useReducer Context API untuk share state across components routing dengan React Router diikuti mini project untuk implement semua concepts dalam real application scenario",
+        "aktivitas": "Peserta implement advanced hooks patterns create global state dengan Context API setup routing untuk SPA build complex forms dengan validation optimize component performance dengan memoization techniques work on mini e-commerce atau dashboard project apply all learned concepts"
+      },
+      "waktu": "Workshop 3x180', Project Work 3x180'",
+      "project": {
+        "nama": "React SPA with Routing & Global State",
+        "deskripsi": "Build single-page application dengan multiple routes, global state management, dan advanced React patterns",
+        "deliverables": [
+          "Multi-page React application dengan routing",
+          "Global state management implementation",
+          "Responsive UI dengan reusable components",
+          "Form handling dengan validation",
+          "Optimized performance",
+          "Clean code structure dan organization"
+        ],
+        "teknologi": ["React.js", "React Router", "Context API", "React Hooks", "CSS-in-JS"]
+      },
+      "pengalamanBelajar": "Peserta akan master advanced React patterns implement complex state logic dengan useReducer manage global state efficiently dengan Context API create multi-page experience dengan React Router handle forms dan user input dengan validation optimize React app performance implement best practices untuk scalable React applications",
+      "penilaian": {
+        "kriteria": "Advanced React patterns implementation routing setup dan navigation global state management quality form handling dan validation code architecture dan scalability performance optimization UI UX consistency project complexity technical documentation presentation quality",
+        "bobot": 12
+      }
+    },
+    {
+      "mingguKe": 5,
+      "tema": "Backend Development with Node.js & Express",
+      "learningOutcomes": ["LO-3"],
+      "materiPokok": [
+        "Node.js fundamentals dan npm ecosystem",
+        "Express.js framework untuk web servers",
+        "RESTful API design principles",
+        "Middleware dan error handling",
+        "Authentication basics dengan JWT"
+      ],
+      "metodePembelajaran": {
+        "metode": "Lecture + Hands-on Workshop",
+        "deskripsi": "Instruktur introduce backend development concepts dengan Node.js demonstrate Express.js server setup dan RESTful API creation dengan live coding approach showing best practices untuk API design error handling middleware usage dan security basics dengan authentication implementation",
+        "aktivitas": "Peserta setup Node.js development environment create Express server build RESTful endpoints implement middleware untuk logging authentication create CRUD operations test APIs menggunakan Postman atau Thunder Client handle errors gracefully implement JWT authentication basics"
+      },
+      "waktu": "Lecture 2x120', Workshop 4x180'",
+      "pengalamanBelajar": "Peserta akan understand server-side JavaScript dengan Node.js create web servers menggunakan Express.js design dan implement RESTful APIs following best practices use middleware untuk cross-cutting concerns implement error handling strategies secure APIs dengan authentication handle HTTP requests dan responses work dengan npm packages test backend endpoints effectively",
+      "penilaian": {
+        "kriteria": "Node.js environment setup Express server configuration RESTful API design quality endpoint implementation completeness middleware usage appropriateness error handling implementation authentication security code organization API testing coverage documentation quality",
+        "bobot": 10
+      }
+    },
+    {
+      "mingguKe": 6,
+      "tema": "Database Integration (SQL & NoSQL)",
+      "learningOutcomes": ["LO-4"],
+      "materiPokok": [
+        "Database fundamentals: SQL vs NoSQL",
+        "PostgreSQL: tables, relationships, queries",
+        "MongoDB: collections, documents, queries",
+        "ORM/ODM: Prisma atau Mongoose",
+        "Database design best practices"
+      ],
+      "metodePembelajaran": {
+        "metode": "Workshop + Case Study",
+        "deskripsi": "Workshop comprehensive tentang database integration showing both SQL PostgreSQL dan NoSQL MongoDB approaches dengan hands-on practice creating schemas writing queries using ORM ODM tools demonstrating real-world database design decisions melalui case studies dari actual applications",
+        "aktivitas": "Peserta setup PostgreSQL dan MongoDB locally design database schemas create relationships tables collections write SQL queries dan MongoDB aggregations implement Prisma atau Mongoose dalam Node.js apps connect backend APIs dengan databases perform CRUD operations optimize database queries handle migrations"
+      },
+      "waktu": "Workshop 4x180', Case Study 2x120'",
+      "pengalamanBelajar": "Peserta akan understand database concepts dan paradigms work dengan both SQL dan NoSQL databases design optimal database schemas write efficient queries implement database integration dalam backend apps use ORM ODM untuk better developer experience handle data relationships migrations understand database indexing dan optimization compare SQL vs NoSQL trade-offs",
+      "penilaian": {
+        "kriteria": "Database schema design quality query writing efficiency ORM ODM implementation correctness database integration completeness data relationship handling CRUD operations functionality migration handling code quality database optimization understanding concept comprehension",
+        "bobot": 12
+      }
+    },
+    {
+      "mingguKe": 7,
+      "tema": "Full-Stack Integration & Deployment",
+      "learningOutcomes": ["LO-6"],
+      "materiPokok": [
+        "Connecting React frontend dengan Node.js backend",
+        "Environment variables dan configuration",
+        "CORS dan API security",
+        "Deployment: Frontend (Vercel/Netlify), Backend (Railway/Render)",
+        "CI/CD basics dengan GitHub Actions",
+        "Production best practices"
+      ],
+      "metodePembelajaran": {
+        "metode": "Project-Based Learning",
+        "deskripsi": "Full hands-on project week dimana peserta integrate React frontend dengan Express backend deploy both ke production environment setup environment variables configure CORS implement security measures setup CI CD pipeline untuk automated deployments following industry best practices untuk production applications",
+        "aktivitas": "Peserta connect frontend dan backend applications setup environment configurations handle CORS issues implement API security measures deploy frontend ke Vercel atau Netlify deploy backend ke Railway atau Render setup database di cloud configure CI CD dengan GitHub Actions test production deployment troubleshoot deployment issues"
+      },
+      "waktu": "Project Work 6x180'",
+      "project": {
+        "nama": "Full-Stack Application Deployment",
+        "deskripsi": "Deploy complete full-stack application (React + Node.js + Database) ke production environment dengan proper configuration dan CI/CD",
+        "deliverables": [
+          "Deployed frontend application (live URL)",
+          "Deployed backend API (live URL)",
+          "Cloud database setup dan migration",
+          "Environment configuration untuk production",
+          "CI/CD pipeline setup",
+          "Production-ready code dengan security measures",
+          "Complete deployment documentation"
+        ],
+        "teknologi": ["React", "Node.js", "Express", "Database", "Vercel/Netlify", "Railway/Render", "GitHub Actions"]
+      },
+      "pengalamanBelajar": "Peserta akan integrate frontend dan backend components deploy applications ke production environment setup cloud databases configure environment variables handle CORS dan security implement CI CD untuk automated deployments troubleshoot production issues understand DevOps basics monitor deployed applications write deployment documentation",
+      "penilaian": {
+        "kriteria": "Successful frontend deployment successful backend deployment database cloud setup environment configuration quality CORS handling API security implementation CI CD pipeline functionality production code quality deployment documentation troubleshooting ability overall integration completeness",
+        "bobot": 15
+      }
+    },
+    {
+      "mingguKe": 8,
+      "tema": "Final Capstone Project & Career Preparation",
+      "learningOutcomes": ["LO-7", "LO-8"],
+      "materiPokok": [
+        "Capstone project: full-stack application dari ideation sampai deployment",
+        "Agile methodology: sprints, standups, retrospectives",
+        "Code review dan pair programming practices",
+        "Portfolio preparation dan GitHub profile optimization",
+        "Resume review dan interview preparation",
+        "Technical interview practice"
+      ],
+      "metodePembelajaran": {
+        "metode": "Capstone Project + Mentoring",
+        "deskripsi": "Final week dedicated untuk capstone project dimana peserta work dalam teams build complete full-stack application dari scratch hingga deployment dengan Agile methodology daily standups code reviews pair programming sessions combined dengan career preparation mentoring untuk resume portfolio interview readiness",
+        "aktivitas": "Peserta brainstorm dan pitch project ideas form teams assign roles dan responsibilities plan sprints menggunakan Agile conduct daily standups implement full-stack features do code reviews pair programming sessions deploy final project prepare portfolio presentation optimize GitHub profile update resume practice technical interviews present final projects"
+      },
+      "waktu": "Project Work 8x180', Mentoring 2x120'",
+      "project": {
+        "nama": "Capstone: Full-Stack Web Application",
+        "deskripsi": "Team project untuk build complete production-ready full-stack web application dengan modern tech stack, comprehensive features, dan professional deployment",
+        "deliverables": [
+          "Complete full-stack application deployed to production",
+          "Frontend dengan modern React best practices",
+          "Backend API dengan proper architecture",
+          "Database dengan optimized schema",
+          "Authentication dan authorization",
+          "Comprehensive documentation (README, API docs)",
+          "Project presentation deck",
+          "Individual portfolio showcase",
+          "Updated resume dan LinkedIn profile"
+        ],
+        "teknologi": ["React", "Node.js", "Express", "PostgreSQL/MongoDB", "JWT", "Git", "Deployment platforms"]
+      },
+      "pengalamanBelajar": "Peserta akan experience complete software development lifecycle work dalam Agile team environment practice code reviews dan collaboration implement complex full-stack application deploy production-ready software manage project timeline dan deliverables present technical work professionally prepare career materials portfolio resume optimize job search profiles practice technical interviews gain confidence untuk job applications",
+      "penilaian": {
+        "kriteria": "Capstone project technical complexity feature completeness dan functionality code quality dan architecture teamwork dan collaboration Agile process adherence deployment success documentation quality presentation effectiveness portfolio preparation resume quality GitHub profile optimization interview performance overall project impact innovation creativity",
+        "bobot": 28
+      }
+    }
+  ],
+  "assessment": [
+    {
+      "nama": "Participation & Attendance",
+      "deskripsi": "Kehadiran aktif dalam live sessions, workshop, dan partisipasi dalam diskusi serta peer learning",
+      "bobot": 10,
+      "metode": "Observasi instruktur, tracking kehadiran, dan evaluasi kontribusi dalam diskusi",
+      "kriteria": [
+        "Kehadiran minimum 85% dari total session (online maupun offline)",
+        "Aktif bertanya dan menjawab dalam diskusi",
+        "Membantu sesama peserta dalam peer learning",
+        "Partisipasi dalam code review dan pair programming",
+        "Keaktifan dalam Slack/Discord community"
+      ]
+    },
+    {
+      "nama": "Weekly Assignments & Exercises",
+      "deskripsi": "Tugas dan latihan coding mingguan untuk memperkuat pemahaman konsep yang dipelajari",
+      "bobot": 20,
+      "metode": "Automated testing, code review oleh instruktur, dan manual evaluation",
+      "kriteria": [
+        "Ketepatan waktu submission (deadline compliance)",
+        "Code functionality dan correctness",
+        "Code quality: clean code, best practices, comments",
+        "Problem solving approach",
+        "Git commit history quality"
+      ]
+    },
+    {
+      "nama": "Mini Projects (Week 2, 4, 7)",
+      "deskripsi": "Project kecil-menengah untuk mengaplikasikan multiple skills yang sudah dipelajari dalam satu deliverable",
+      "bobot": 30,
+      "metode": "Project demo, code review, peer evaluation, dan grading rubric",
+      "kriteria": [
+        "Feature completeness sesuai requirement",
+        "Code architecture dan organization",
+        "UI/UX quality dan responsiveness",
+        "Deployment success dan production readiness",
+        "Documentation quality (README, comments, API docs)",
+        "Innovation dan creativity",
+        "Presentation dan demo skills"
+      ]
+    },
+    {
+      "nama": "Final Capstone Project",
+      "deskripsi": "Project akhir comprehensive sebagai portfolio piece utama yang showcase semua skill yang dipelajari",
+      "bobot": 40,
+      "metode": "Final presentation, live demo, code review, technical documentation evaluation, dan peer assessment",
+      "kriteria": [
+        "Technical complexity dan scope",
+        "Full-stack integration quality",
+        "Code quality, architecture, dan scalability",
+        "Feature richness dan functionality",
+        "UI/UX design dan user experience",
+        "Security implementation",
+        "Performance optimization",
+        "Deployment dan production readiness",
+        "Documentation completeness",
+        "Teamwork dan collaboration (Agile process)",
+        "Presentation quality dan communication",
+        "Innovation, creativity, dan problem solving"
+      ]
+    }
+  ],
+  "instruktur": [
+    {
+      "nama": "Ahmad Rizki",
+      "expertise": [
+        "Full Stack Development (MERN Stack)",
+        "System Architecture & Design",
+        "Cloud Infrastructure & DevOps"
+      ],
+      "peran": "Lead Instructor",
+      "kontak": "ahmad.rizki@bootcamp.id"
+    },
+    {
+      "nama": "Sarah Putri",
+      "expertise": [
+        "Frontend Development (React, Vue)",
+        "UI/UX Design",
+        "Responsive Web Design"
+      ],
+      "peran": "Frontend Specialist Instructor",
+      "kontak": "sarah.putri@bootcamp.id"
+    },
+    {
+      "nama": "Budi Santoso",
+      "expertise": [
+        "Backend Development (Node.js, Python)",
+        "Database Design & Optimization",
+        "API Development & Microservices"
+      ],
+      "peran": "Backend Specialist Instructor",
+      "kontak": "budi.santoso@bootcamp.id"
+    },
+    {
+      "nama": "Diana Kartika",
+      "expertise": [
+        "Career Coaching",
+        "Technical Interview Preparation",
+        "Portfolio Building"
+      ],
+      "peran": "Career Mentor",
+      "kontak": "diana.kartika@bootcamp.id"
+    }
+  ],
+  "toolsResources": {
+    "software": [
+      "Visual Studio Code atau IDE pilihan",
+      "Git untuk version control",
+      "Node.js (LTS version) dan npm",
+      "Postman atau Thunder Client untuk API testing",
+      "Browser modern dengan DevTools (Chrome/Firefox)",
+      "PostgreSQL dan MongoDB untuk database"
+    ],
+    "platform": [
+      "GitHub untuk code repository dan collaboration",
+      "Slack atau Discord untuk komunikasi tim",
+      "Zoom untuk live online sessions",
+      "Notion atau Trello untuk project management",
+      "Learning Management System untuk materi",
+      "Vercel/Netlify untuk frontend deployment",
+      "Railway/Render untuk backend deployment"
+    ],
+    "hardware": [
+      "Laptop dengan minimum RAM 8GB (recommended 16GB)",
+      "Storage SSD minimum 256GB",
+      "Koneksi internet stabil minimum 10 Mbps",
+      "Webcam dan microphone untuk online sessions"
+    ],
+    "akun_diperlukan": [
+      "GitHub account (personal, free tier sudah cukup)",
+      "Vercel atau Netlify account",
+      "Railway atau Render account",
+      "MongoDB Atlas account (free tier)",
+      "Slack atau Discord workspace bootcamp",
+      "LinkedIn account untuk networking"
+    ]
+  },
+  "sertifikasi": {
+    "nama": "Certificate of Completion - Full Stack Web Development Bootcamp",
+    "syarat_kelulusan": [
+      "Nilai akhir minimum 70% dari total assessment",
+      "Kehadiran minimum 85% dari seluruh session",
+      "Submit dan present final capstone project",
+      "Complete semua mini projects (week 2, 4, 7)",
+      "Memiliki portfolio dengan minimal 3 deployed projects",
+      "Participate aktif dalam peer learning dan code reviews"
+    ],
+    "nilai_minimal": 70,
+    "benefit": [
+      "Sertifikat resmi completion yang diakui industri",
+      "Portfolio dengan 3+ production-ready projects",
+      "LinkedIn certification badge",
+      "Akses lifetime ke bootcamp alumni network",
+      "Career coaching session (3 sessions)",
+      "Resume review dan LinkedIn profile optimization",
+      "Interview preparation workshops",
+      "Akses ke job board dan hiring partners",
+      "Continued learning resources dan updates"
+    ]
+  },
+  "referensi": [
+    "MDN Web Docs - The Complete Web Development Resource - https://developer.mozilla.org",
+    "freeCodeCamp - Interactive Coding Tutorials - https://www.freecodecamp.org",
+    "JavaScript.info - Modern JavaScript Tutorial - https://javascript.info",
+    "React Official Documentation - https://react.dev",
+    "Node.js Official Documentation - https://nodejs.org/docs",
+    "Express.js Guide - https://expressjs.com/en/guide/routing.html",
+    "You Don't Know JS (Book Series) - Kyle Simpson - O'Reilly",
+    "Eloquent JavaScript (3rd Edition) - Marijn Haverbeke - No Starch Press",
+    "Full Stack Open - University of Helsinki - https://fullstackopen.com",
+    "The Odin Project - Free Full Stack Curriculum - https://www.theodinproject.com"
+  ],
+  "fasilitas": [
+    "Akses ke online learning platform dengan recorded sessions",
+    "Dedicated Slack/Discord channel untuk Q&A dan networking",
+    "Weekly office hours dengan instruktur",
+    "Code review feedback dari senior developers",
+    "Access ke premium learning resources dan tools",
+    "Certificate of completion",
+    "Portfolio building guidance",
+    "Job search dan interview preparation support"
+  ],
+  "investasi": {
+    "biaya": 15000000,
+    "early_bird": 12000000,
+    "cicilan": true,
+    "beasiswa": true
+  }
+}

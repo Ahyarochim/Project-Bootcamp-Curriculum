@@ -1,0 +1,190 @@
+{
+  "identitas": {
+    "nama": "Bootcamp Pelatihan Otomasi Industri",
+    "kode": "",
+    "durasi": 8,
+    "tipe": "Hybrid",
+    "level": "Beginner",
+    "kapasitas": 20
+  },
+  "deskripsi": "Pelatihan Otomasi Industri bertujuan untuk mengenalkan sistem otomasi ke mahasiswa",
+  "deskripsiSingkat": "",
+  "targetPeserta": {
+    "deskripsi": "",
+    "latar_belakang": [],
+    "prasyarat_teknis": [],
+    "prasyarat_soft_skill": []
+  },
+  "learningOutcomes": [],
+  "minggu": [
+    {
+      "mingguKe": 1,
+      "tema": "",
+      "materiPokok": [],
+      "metodePembelajaran": {
+        "metode": "Workshop",
+        "deskripsi": "",
+        "aktivitas": ""
+      },
+      "waktu": "",
+      "pengalamanBelajar": "",
+      "penilaian": {
+        "kriteria": "",
+        "bobot": 0
+      },
+      "learningOutcomes": [
+        "LO-1"
+      ]
+    },
+    {
+      "mingguKe": 2,
+      "tema": "",
+      "materiPokok": [],
+      "metodePembelajaran": {
+        "metode": "Workshop",
+        "deskripsi": "",
+        "aktivitas": ""
+      },
+      "waktu": "",
+      "pengalamanBelajar": "",
+      "penilaian": {
+        "kriteria": "",
+        "bobot": 0
+      },
+      "learningOutcomes": [
+        "LO-1"
+      ]
+    },
+    {
+      "mingguKe": 3,
+      "tema": "",
+      "materiPokok": [],
+      "metodePembelajaran": {
+        "metode": "Workshop",
+        "deskripsi": "",
+        "aktivitas": ""
+      },
+      "waktu": "",
+      "pengalamanBelajar": "",
+      "penilaian": {
+        "kriteria": "",
+        "bobot": 0
+      },
+      "learningOutcomes": [
+        "LO-1"
+      ]
+    },
+    {
+      "mingguKe": 4,
+      "tema": "",
+      "materiPokok": [],
+      "metodePembelajaran": {
+        "metode": "Workshop",
+        "deskripsi": "",
+        "aktivitas": ""
+      },
+      "waktu": "",
+      "pengalamanBelajar": "",
+      "penilaian": {
+        "kriteria": "",
+        "bobot": 0
+      },
+      "learningOutcomes": [
+        "LO-1"
+      ]
+    },
+    {
+      "mingguKe": 5,
+      "tema": "",
+      "materiPokok": [],
+      "metodePembelajaran": {
+        "metode": "Workshop",
+        "deskripsi": "",
+        "aktivitas": ""
+      },
+      "waktu": "",
+      "pengalamanBelajar": "",
+      "penilaian": {
+        "kriteria": "",
+        "bobot": 0
+      },
+      "learningOutcomes": [
+        "LO-1"
+      ]
+    },
+    {
+      "mingguKe": 6,
+      "tema": "",
+      "materiPokok": [],
+      "metodePembelajaran": {
+        "metode": "Workshop",
+        "deskripsi": "",
+        "aktivitas": ""
+      },
+      "waktu": "",
+      "pengalamanBelajar": "",
+      "penilaian": {
+        "kriteria": "",
+        "bobot": 0
+      },
+      "learningOutcomes": [
+        "LO-1"
+      ]
+    },
+    {
+      "mingguKe": 7,
+      "tema": "",
+      "materiPokok": [],
+      "metodePembelajaran": {
+        "metode": "Workshop",
+        "deskripsi": "",
+        "aktivitas": ""
+      },
+      "waktu": "",
+      "pengalamanBelajar": "",
+      "penilaian": {
+        "kriteria": "",
+        "bobot": 0
+      },
+      "learningOutcomes": [
+        "LO-1"
+      ]
+    },
+    {
+      "mingguKe": 8,
+      "tema": "",
+      "materiPokok": [],
+      "metodePembelajaran": {
+        "metode": "Workshop",
+        "deskripsi": "",
+        "aktivitas": ""
+      },
+      "waktu": "",
+      "pengalamanBelajar": "",
+      "penilaian": {
+        "kriteria": "",
+        "bobot": 0
+      },
+      "learningOutcomes": [
+        "LO-1"
+      ]
+    }
+  ],
+  "assessment": [],
+  "instruktur": [],
+  "toolsResources": {
+    "software": [],
+    "platform": [],
+    "akun_diperlukan": []
+  },
+  "sertifikasi": {
+    "nama": "",
+    "syarat_kelulusan": [],
+    "nilai_minimal": 70,
+    "benefit": []
+  },
+  "referensi": [],
+  "id": "boot-1769834401317",
+  "createdAt": "2026-01-31T04:40:01.318Z",
+  "updatedAt": "2026-01-31T04:40:01.320Z"
+}
